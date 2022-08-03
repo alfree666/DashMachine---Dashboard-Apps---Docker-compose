@@ -6,10 +6,12 @@ Ver en "localhost:8200"
 Username: admin
 
 Password: admin
-----------------------------------
+
 
 Modificar el Dashboard:
+
 Desplace el cursor sobre la barra lateral izquierda y haga clic en el engranaje Configuración.
+
 Su archivo Config.ini se verá así:
 
 [Settings]
