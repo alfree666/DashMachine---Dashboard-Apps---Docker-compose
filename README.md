@@ -8,7 +8,7 @@ Username: admin
 Password: admin
 
 
-Modificar el Dashboard:
+# Modificar el Dashboard:
 
 Desplace el cursor sobre la barra lateral izquierda y haga clic en el engranaje Configuración.
 
