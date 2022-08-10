@@ -26,7 +26,7 @@ settings_access_groups = admin_only
 custom_app_title = DashMachine
 
 
-# Debido a que tengo varias aplicaciones/contenedores en mi servidor, quería que todos fueran accesibles, así que aquí hay un ejemplo de un par de configuraciones de enlaces de aplicaciones en mi DashMachine Config.ini:
+# Ejemplos de configuraciones de enlaces de aplicaciones en mi DashMachine Config.ini:
 
 [Portainer]
 prefix = https://
@@ -44,4 +44,11 @@ sidebar_icon = static/images/apps/emby.png
 description = Emby Media Server
 open_in = new_tab
 
+[WordPress]
+prefix = https://
+url = wordpress.org
+icon = static/images/apps/default.png
+sidebar_icon = static/images/apps/default.png
+description = WordPress
+open_in = new_tab
 
