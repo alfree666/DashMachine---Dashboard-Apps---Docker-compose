@@ -28,19 +28,20 @@ custom_app_title = DashMachine
 
 # Debido a que tengo varias aplicaciones/contenedores en mi servidor, quería que todos fueran accesibles, así que aquí hay un ejemplo de un par de configuraciones de enlaces de aplicaciones en mi DashMachine Config.ini:
 
+[Portainer]
+prefix = https://
+url = portainer.io
+icon = static/images/apps/portainer.png
+sidebar_icon = static/images/apps/portainer.png
+description = Portainer
+open_in = new_tab
+
 [Emby]
-prefix = http://
-url = 192.168.1.19:8096/web
+prefix = https://
+url = emby.media
 icon = static/images/apps/emby.png
 sidebar_icon = static/images/apps/emby.png
 description = Emby Media Server
 open_in = new_tab
 
 
-[PiHole]
-prefix = http://
-url = 192.168.1.225/admin
-icon = static/images/apps/pihole.png
-sidebar_icon = static/images/apps/pihole.png
-description = DNS Ad Blocker
-open_in = new_tab
