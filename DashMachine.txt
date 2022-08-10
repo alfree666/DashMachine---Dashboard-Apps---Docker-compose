@@ -1,32 +1,8 @@
 # MODIFICAR EL DASHBOARD:
 
-# Desplace el cursor sobre la barra lateral izquierda y haga clic en el engranaje Configuración.
+# Desplace el cursor sobre la barra lateral izquierda y haga clic en el engranaje Settings.
 
-# Su archivo Config.ini se verá así:
-
-[Settings]
-theme = light
-accent = orange
-background = None
-roles = admin,user,public_user
-home_access_groups = admin_only
-settings_access_groups = admin_only
-custom_app_title = DashMachine
-
-
-# Las primeras cosas que cambié fueron el tema y el acento a "oscuro" y "azul" respectivamente:
-
-[Settings]
-theme = dark
-accent = blue
-background = None
-roles = admin,user,public_user
-home_access_groups = admin_only
-settings_access_groups = admin_only
-custom_app_title = DashMachine
-
-
-# Ejemplos de configuraciones de enlaces de aplicaciones en mi DashMachine Config.ini:
+# Añadir a su archivo Config.ini ejemplos de configuraciones de enlaces de aplicaciones:
 
 [Portainer]
 prefix = https://
