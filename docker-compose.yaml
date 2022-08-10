@@ -6,7 +6,7 @@ services:
     image: rmountjoy/dashmachine:v0.5-4
     container_name: dashmachine
     volumes:
-      - ./dashmachine:/dashmachine/dashmachine/user_data
+      - ./app_data:/dashmachine/dashmachine/user_data
     ports:
       - "8200:5000"
     restart: unless-stopped
